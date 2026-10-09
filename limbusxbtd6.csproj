@@ -1,17 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
-        <RootNamespace>limbusxbtd6</RootNamespace>
-        <Configurations>Debug;Release</Configurations>
-        <Nullable>enable</Nullable>
-        <AssemblyName>limbusxbtd6</AssemblyName>
-        <LangVersion>preview</LangVersion>
-        <Optimize>False</Optimize>
-        <DebugType>embedded</DebugType>
-    </PropertyGroup>
-    <ItemGroup>
-        <Content Include=".github\workflows\build.yml" />
-    </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyTitle>limbusxbtd6</AssemblyTitle>
+    <Version>1.0.0</Version>
+    <Description>Limbus Company Total Conversion Mod for BTD6</Description>
+    <Authors>you</Authors>
+  </PropertyGroup>
 
-    <Import Project="..\btd6.targets" />
+  <ItemGroup>
+    <Reference Include="Btd6ModHelper">
+      <HintPath>lib/Btd6ModHelper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
