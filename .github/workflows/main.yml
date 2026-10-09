@@ -1,0 +1,32 @@
+name: Build BTD6 Mod
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
+
+    - name: Download BTD6 Mod Helper References
+      run: |
+        mkdir lib
+        curl -L -o lib/Btd6ModHelper.dll https://github.com
+
+    - name: Build Mod DLL
+      run: dotnet build -c Release
+      
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: limbusxbtd6-dll
+        path: bin/Release/net6.0/limbusxbtd6.dll
