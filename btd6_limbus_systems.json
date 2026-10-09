@@ -1,0 +1,81 @@
+{
+ "resources": [
+  {
+   "id": "enkephalin",
+   "maps_to": "BTD6 cash",
+   "rate": "1:1",
+   "note": "Earned on pops and from Mephistopheles; spent on towers and upgrades"
+  },
+  {
+   "id": "ego_gauge",
+   "maps_to": "ability cooldown shortcut",
+   "rate": "+1 per 10 pops; 100 = one tier-5 ability charge",
+   "note": "Per tower; only tier-5 towers use it; cap 100"
+  },
+  {
+   "id": "sanity",
+   "maps_to": "BTD6 lives",
+   "rate": "1:1",
+   "note": "Renames lives; no new mechanic"
+  }
+ ],
+ "statuses": [
+  {
+   "id": "Rupture",
+   "btd6_effect": "Each stack adds +4% damage taken from the next hit, then 1 stack consumed",
+   "max_stacks": 5
+  },
+  {
+   "id": "Bleed",
+   "btd6_effect": "Damage over time 1 per 0.5s per stack for 4s; ignored by lead",
+   "max_stacks": 8
+  },
+  {
+   "id": "Sinking",
+   "btd6_effect": "-6% speed per stack and 1 damage per 2s at 5+ stacks",
+   "max_stacks": 10
+  },
+  {
+   "id": "Tremor",
+   "btd6_effect": "At 3 stacks the Bloon stuns 1s, then resets",
+   "max_stacks": 3
+  },
+  {
+   "id": "Burn",
+   "btd6_effect": "Fire DoT 1 per 0.5s for 3s; melts frozen/ice protection",
+   "max_stacks": 3
+  },
+  {
+   "id": "None",
+   "btd6_effect": "No status",
+   "max_stacks": 0
+  }
+ ],
+ "roster_fixes": [
+  {
+   "row": "desperado",
+   "note": "Missing from original sheet; added as Outis"
+  },
+  {
+   "row": "engineer",
+   "change": "Workshop fixer -> Faust"
+  },
+  {
+   "row": "beast",
+   "change": "Placeholder; unassigned Sinners available: Meursault, Ryoshu, Sinclair, Hong Lu"
+  },
+  {
+   "row": "meta.host",
+   "change": "Unresolved: BTD6 cannot be the Melty host (not in catalog); host must be a catalog game"
+  }
+ ],
+ "rules": {
+  "crosspath": [
+   5,
+   2,
+   0
+  ],
+  "tier5_per_tower": 1,
+  "cost_basis": "medium difficulty, approximate"
+ }
+}

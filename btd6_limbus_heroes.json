@@ -1,0 +1,3529 @@
+{
+ "meta": {
+  "status": "DRAFT",
+  "xp_formula": "round(180*(L-1)^1.6)"
+ },
+ "heroes": [
+  {
+   "replacement": "Jia Qiu",
+   "vanilla": "Quincy",
+   "role": "ranged-melee DoT",
+   "cost": 540,
+   "design_basis": "user-specified"
+  },
+  {
+   "replacement": "Lei Heng",
+   "vanilla": "Gwendolin",
+   "role": "heavy melee/fire",
+   "cost": 640,
+   "design_basis": "user-specified"
+  },
+  {
+   "replacement": "Ricardo",
+   "vanilla": "Striker Jones",
+   "role": "close-range MOAB killer",
+   "cost": 600,
+   "design_basis": "user-specified"
+  },
+  {
+   "replacement": "Kromer",
+   "vanilla": "Obyn Greenfoot",
+   "role": "zone control",
+   "cost": 540,
+   "design_basis": "gameplay-driven; verify canon abilities against game data"
+  },
+  {
+   "replacement": "Dongrang",
+   "vanilla": "Rosalia",
+   "role": "mobile skirmisher",
+   "cost": 540,
+   "design_basis": "gameplay-driven; verify canon abilities against game data"
+  },
+  {
+   "replacement": "Hindley",
+   "vanilla": "Captain Churchill",
+   "role": "armored artillery",
+   "cost": 800,
+   "design_basis": "gameplay-driven; verify canon abilities against game data"
+  },
+  {
+   "replacement": "Angela",
+   "vanilla": "Benjamin",
+   "role": "economy/support",
+   "cost": 900,
+   "design_basis": "gameplay-driven; verify canon abilities against game data"
+  },
+  {
+   "replacement": "Gebura",
+   "vanilla": "Pat Fusty",
+   "role": "big-sword bruiser",
+   "cost": 650,
+   "design_basis": "gameplay-driven; verify canon abilities against game data"
+  },
+  {
+   "replacement": "Binah",
+   "vanilla": "Ezili",
+   "role": "thread control",
+   "cost": 600,
+   "design_basis": "gameplay-driven; verify canon abilities against game data"
+  },
+  {
+   "replacement": "Hokma",
+   "vanilla": "Adora",
+   "role": "buff/support",
+   "cost": 700,
+   "design_basis": "gameplay-driven; verify canon abilities against game data"
+  },
+  {
+   "replacement": "Roland",
+   "vanilla": "Admiral Brickell",
+   "role": "revolver duelist",
+   "cost": 620,
+   "design_basis": "gameplay-driven; verify canon abilities against game data"
+  },
+  {
+   "replacement": "Yesod",
+   "vanilla": "Etienne",
+   "role": "ammo/automation",
+   "cost": 700,
+   "design_basis": "gameplay-driven; verify canon abilities against game data"
+  },
+  {
+   "replacement": "Carmen",
+   "vanilla": "Sauda",
+   "role": "aggressive duelist",
+   "cost": 600,
+   "design_basis": "gameplay-driven; verify canon abilities against game data"
+  },
+  {
+   "replacement": "Tiphereth",
+   "vanilla": "Psi",
+   "role": "thought blasts",
+   "cost": 700,
+   "design_basis": "gameplay-driven; verify canon abilities against game data"
+  },
+  {
+   "replacement": "Chesed",
+   "vanilla": "Geraldo",
+   "role": "item/trap support",
+   "cost": 650,
+   "design_basis": "gameplay-driven; verify canon abilities against game data"
+  },
+  {
+   "replacement": "Netzach",
+   "vanilla": "Corvus",
+   "role": "beast summoner",
+   "cost": 650,
+   "design_basis": "gameplay-driven; verify canon abilities against game data"
+  },
+  {
+   "replacement": "Hod",
+   "vanilla": "Silas",
+   "role": "explosive caster",
+   "cost": 620,
+   "design_basis": "gameplay-driven; verify canon abilities against game data"
+  }
+ ],
+ "levels": [
+  {
+   "hero": "Jia Qiu",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Staff Strike",
+   "effect": "Arc swing hits up to 4 Bloons, applies Rupture 1"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.1,
+   "speed_mult": 1.02,
+   "range_add": 0.3,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.2,
+   "speed_mult": 1.04,
+   "range_add": 0.6,
+   "unlock": "Deathrite: Halt",
+   "effect": "Freezes non-MOAB Bloons in radius for 2s"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.3,
+   "speed_mult": 1.06,
+   "range_add": 0.9,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.4,
+   "speed_mult": 1.08,
+   "range_add": 1.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.5,
+   "speed_mult": 1.1,
+   "range_add": 1.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.6,
+   "speed_mult": 1.12,
+   "range_add": 1.8,
+   "unlock": "Deathrite: Wane",
+   "effect": "Strips 1 layer from non-MOAB Bloons in range every 8s"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.7,
+   "speed_mult": 1.14,
+   "range_add": 2.1,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 1.8,
+   "speed_mult": 1.16,
+   "range_add": 2.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 1.9,
+   "speed_mult": 1.18,
+   "range_add": 2.7,
+   "unlock": "Rupture Mastery",
+   "effect": "Rupture caps at 5 stacks, +10% damage per stack"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 2.0,
+   "speed_mult": 1.2,
+   "range_add": 3.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 2.1,
+   "speed_mult": 1.22,
+   "range_add": 3.3,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 2.2,
+   "speed_mult": 1.24,
+   "range_add": 3.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 2.3,
+   "speed_mult": 1.26,
+   "range_add": 3.9,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 2.4,
+   "speed_mult": 1.28,
+   "range_add": 4.2,
+   "unlock": "Deathrite Chorus",
+   "effect": "Halt and Wane alternate automatically, cooldowns -30%"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.5,
+   "speed_mult": 1.3,
+   "range_add": 4.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 2.6,
+   "speed_mult": 1.32,
+   "range_add": 4.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 2.7,
+   "speed_mult": 1.34,
+   "range_add": 5.1,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 2.8,
+   "speed_mult": 1.36,
+   "range_add": 5.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Jia Qiu",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 2.9,
+   "speed_mult": 1.38,
+   "range_add": 5.7,
+   "unlock": "Effloresced E.G.O::Erli",
+   "effect": "Orbiting energy rings pulse Rupture and Wane on contact"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Dadao Cleave",
+   "effect": "Wide melee arc, 2 damage"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.12,
+   "speed_mult": 1.01,
+   "range_add": 0.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.24,
+   "speed_mult": 1.03,
+   "range_add": 0.4,
+   "unlock": "Tigermark Round",
+   "effect": "Propellant swing launches an exploding fire shell"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.36,
+   "speed_mult": 1.04,
+   "range_add": 0.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.48,
+   "speed_mult": 1.06,
+   "range_add": 0.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.6,
+   "speed_mult": 1.07,
+   "range_add": 1.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.72,
+   "speed_mult": 1.09,
+   "range_add": 1.2,
+   "unlock": "Propellant Swing",
+   "effect": "+60% swing speed, applies Bleed 2"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.84,
+   "speed_mult": 1.1,
+   "range_add": 1.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 1.96,
+   "speed_mult": 1.12,
+   "range_add": 1.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 2.08,
+   "speed_mult": 1.14,
+   "range_add": 1.8,
+   "unlock": "Mang Ring",
+   "effect": "Ring around tower: Bloons inside take +25% damage"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 2.2,
+   "speed_mult": 1.15,
+   "range_add": 2.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 2.32,
+   "speed_mult": 1.17,
+   "range_add": 2.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 2.44,
+   "speed_mult": 1.18,
+   "range_add": 2.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 2.56,
+   "speed_mult": 1.2,
+   "range_add": 2.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 2.68,
+   "speed_mult": 1.21,
+   "range_add": 2.8,
+   "unlock": "Shin Ring",
+   "effect": "Second ring, +25% more stacking, adds fire"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.8,
+   "speed_mult": 1.23,
+   "range_add": 3.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 2.92,
+   "speed_mult": 1.24,
+   "range_add": 3.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 3.04,
+   "speed_mult": 1.25,
+   "range_add": 3.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 3.16,
+   "speed_mult": 1.27,
+   "range_add": 3.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Lei Heng",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 3.28,
+   "speed_mult": 1.28,
+   "range_add": 3.8,
+   "unlock": "Mang-Shin Resonance",
+   "effect": "Rings merge: x2 amplification, MOAB-class bleed"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Brawler Jab",
+   "effect": "Fast close punch, 3 damage"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.13,
+   "speed_mult": 1.02,
+   "range_add": 0.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.26,
+   "speed_mult": 1.04,
+   "range_add": 0.0,
+   "unlock": "Fist Combo",
+   "effect": "3-hit chain, finisher knocks Bloons back"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.39,
+   "speed_mult": 1.06,
+   "range_add": 0.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.52,
+   "speed_mult": 1.08,
+   "range_add": 0.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.65,
+   "speed_mult": 1.1,
+   "range_add": 0.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.78,
+   "speed_mult": 1.12,
+   "range_add": 0.0,
+   "unlock": "MOAB Breaker",
+   "effect": "+10 damage vs MOAB-class"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.91,
+   "speed_mult": 1.14,
+   "range_add": 0.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 2.04,
+   "speed_mult": 1.16,
+   "range_add": 0.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 2.17,
+   "speed_mult": 1.18,
+   "range_add": 0.0,
+   "unlock": "Hair Coupons",
+   "effect": "Each pop adds a coupon (max 20), +1% damage each"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 2.3,
+   "speed_mult": 1.2,
+   "range_add": 0.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 2.43,
+   "speed_mult": 1.22,
+   "range_add": 0.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 2.56,
+   "speed_mult": 1.24,
+   "range_add": 0.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 2.69,
+   "speed_mult": 1.26,
+   "range_add": 0.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 2.82,
+   "speed_mult": 1.28,
+   "range_add": 0.0,
+   "unlock": "Coupon Fury",
+   "effect": "Ability: fury 12s, double speed, +100% MOAB damage"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.95,
+   "speed_mult": 1.3,
+   "range_add": 0.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 3.08,
+   "speed_mult": 1.32,
+   "range_add": 0.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 3.21,
+   "speed_mult": 1.34,
+   "range_add": 0.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 3.34,
+   "speed_mult": 1.36,
+   "range_add": 0.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Ricardo",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 3.47,
+   "speed_mult": 1.38,
+   "range_add": 0.0,
+   "unlock": "Middle Big Brother Wrath",
+   "effect": "Fury is permanent at 20 coupons, shockwave on combo finishers"
+  },
+  {
+   "hero": "Kromer",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Kromer Pulse",
+   "effect": "Short burst, applies Sinking 1"
+  },
+  {
+   "hero": "Kromer",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.09,
+   "speed_mult": 1.01,
+   "range_add": 0.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Kromer",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.18,
+   "speed_mult": 1.02,
+   "range_add": 0.8,
+   "unlock": "Overflow",
+   "effect": "+5% damage per Bloon popped this round"
+  },
+  {
+   "hero": "Kromer",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.27,
+   "speed_mult": 1.03,
+   "range_add": 1.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Kromer",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.36,
+   "speed_mult": 1.04,
+   "range_add": 1.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Kromer",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.45,
+   "speed_mult": 1.05,
+   "range_add": 2.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Kromer",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.54,
+   "speed_mult": 1.06,
+   "range_add": 2.4,
+   "unlock": "Contaminated Ground",
+   "effect": "Zone slows Bloons in radius"
+  },
+  {
+   "hero": "Kromer",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.63,
+   "speed_mult": 1.07,
+   "range_add": 2.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Kromer",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 1.72,
+   "speed_mult": 1.08,
+   "range_add": 3.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Kromer",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 1.81,
+   "speed_mult": 1.09,
+   "range_add": 3.6,
+   "unlock": "Kromer Surge",
+   "effect": "Ability: strips 3 layers from all on-screen non-MOAB"
+  },
+  {
+   "hero": "Kromer",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 1.9,
+   "speed_mult": 1.1,
+   "range_add": 4.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Kromer",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 1.99,
+   "speed_mult": 1.11,
+   "range_add": 4.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Kromer",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 2.08,
+   "speed_mult": 1.12,
+   "range_add": 4.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Kromer",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 2.17,
+   "speed_mult": 1.13,
+   "range_add": 5.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Kromer",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 2.26,
+   "speed_mult": 1.14,
+   "range_add": 5.6,
+   "unlock": "Brimming",
+   "effect": "Zone grows with Overflow stacks"
+  },
+  {
+   "hero": "Kromer",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.35,
+   "speed_mult": 1.15,
+   "range_add": 6.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Kromer",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 2.44,
+   "speed_mult": 1.16,
+   "range_add": 6.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Kromer",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 2.53,
+   "speed_mult": 1.17,
+   "range_add": 6.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Kromer",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 2.62,
+   "speed_mult": 1.18,
+   "range_add": 7.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Kromer",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 2.71,
+   "speed_mult": 1.19,
+   "range_add": 7.6,
+   "unlock": "Kromer Apotheosis",
+   "effect": "Zone tracks nearest Bloon, effects x1.5"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Snap Cut",
+   "effect": "Fast single-target slash"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.1,
+   "speed_mult": 1.03,
+   "range_add": 0.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.2,
+   "speed_mult": 1.06,
+   "range_add": 0.4,
+   "unlock": "Counter Guard",
+   "effect": "Hit within 1s of a strike triggers double-damage counter"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.3,
+   "speed_mult": 1.09,
+   "range_add": 0.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.4,
+   "speed_mult": 1.12,
+   "range_add": 0.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.5,
+   "speed_mult": 1.15,
+   "range_add": 1.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.6,
+   "speed_mult": 1.18,
+   "range_add": 1.2,
+   "unlock": "Quick Step",
+   "effect": "Relocates toward strongest Bloon, +20% speed"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.7,
+   "speed_mult": 1.21,
+   "range_add": 1.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 1.8,
+   "speed_mult": 1.24,
+   "range_add": 1.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 1.9,
+   "speed_mult": 1.27,
+   "range_add": 1.8,
+   "unlock": "Streak",
+   "effect": "Consecutive hits stack +3% damage, max 15"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 2.0,
+   "speed_mult": 1.3,
+   "range_add": 2.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 2.1,
+   "speed_mult": 1.33,
+   "range_add": 2.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 2.2,
+   "speed_mult": 1.36,
+   "range_add": 2.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 2.3,
+   "speed_mult": 1.39,
+   "range_add": 2.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 2.4,
+   "speed_mult": 1.42,
+   "range_add": 2.8,
+   "unlock": "Dongrang Rush",
+   "effect": "Ability: 8s dash strikes every Bloon in range"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.5,
+   "speed_mult": 1.45,
+   "range_add": 3.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 2.6,
+   "speed_mult": 1.48,
+   "range_add": 3.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 2.7,
+   "speed_mult": 1.51,
+   "range_add": 3.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 2.8,
+   "speed_mult": 1.54,
+   "range_add": 3.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Dongrang",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 2.9,
+   "speed_mult": 1.57,
+   "range_add": 3.8,
+   "unlock": "Unleashed Form",
+   "effect": "Streak never decays, +50% range"
+  },
+  {
+   "hero": "Hindley",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Heavy Shot",
+   "effect": "Slow, high-damage single shot"
+  },
+  {
+   "hero": "Hindley",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.14,
+   "speed_mult": 1.01,
+   "range_add": 0.3,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hindley",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.28,
+   "speed_mult": 1.02,
+   "range_add": 0.6,
+   "unlock": "Reinforced Round",
+   "effect": "Shot pierces 1 armored layer"
+  },
+  {
+   "hero": "Hindley",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.42,
+   "speed_mult": 1.03,
+   "range_add": 0.9,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hindley",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.56,
+   "speed_mult": 1.04,
+   "range_add": 1.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hindley",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.7,
+   "speed_mult": 1.05,
+   "range_add": 1.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hindley",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.84,
+   "speed_mult": 1.06,
+   "range_add": 1.8,
+   "unlock": "Shock Volley",
+   "effect": "Ability: 5 shots at the strongest Bloons"
+  },
+  {
+   "hero": "Hindley",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.98,
+   "speed_mult": 1.07,
+   "range_add": 2.1,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hindley",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 2.12,
+   "speed_mult": 1.08,
+   "range_add": 2.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hindley",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 2.26,
+   "speed_mult": 1.09,
+   "range_add": 2.7,
+   "unlock": "Siege Posture",
+   "effect": "Stationary: +40% range and damage"
+  },
+  {
+   "hero": "Hindley",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 2.4,
+   "speed_mult": 1.1,
+   "range_add": 3.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hindley",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 2.54,
+   "speed_mult": 1.11,
+   "range_add": 3.3,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hindley",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 2.68,
+   "speed_mult": 1.12,
+   "range_add": 3.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hindley",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 2.82,
+   "speed_mult": 1.13,
+   "range_add": 3.9,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hindley",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 2.96,
+   "speed_mult": 1.14,
+   "range_add": 4.2,
+   "unlock": "Wrath Barrage",
+   "effect": "Volley fires twice, cooldown -25%"
+  },
+  {
+   "hero": "Hindley",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 3.1,
+   "speed_mult": 1.15,
+   "range_add": 4.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hindley",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 3.24,
+   "speed_mult": 1.16,
+   "range_add": 4.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hindley",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 3.38,
+   "speed_mult": 1.17,
+   "range_add": 5.1,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hindley",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 3.52,
+   "speed_mult": 1.18,
+   "range_add": 5.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hindley",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 3.66,
+   "speed_mult": 1.19,
+   "range_add": 5.7,
+   "unlock": "Hindley Last Stand",
+   "effect": "Every shot explodes, +100% damage vs MOAB-class"
+  },
+  {
+   "hero": "Angela",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Reception Fee",
+   "effect": "Gains Enkephalin every round"
+  },
+  {
+   "hero": "Angela",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.05,
+   "speed_mult": 1.0,
+   "range_add": 0.1,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Angela",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.1,
+   "speed_mult": 1.0,
+   "range_add": 0.2,
+   "unlock": "Library Lecture",
+   "effect": "+5% attack speed to towers in range"
+  },
+  {
+   "hero": "Angela",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.15,
+   "speed_mult": 1.0,
+   "range_add": 0.3,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Angela",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.2,
+   "speed_mult": 1.0,
+   "range_add": 0.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Angela",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.25,
+   "speed_mult": 1.0,
+   "range_add": 0.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Angela",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.3,
+   "speed_mult": 1.0,
+   "range_add": 0.6,
+   "unlock": "Guest Dividend",
+   "effect": "Income +10%"
+  },
+  {
+   "hero": "Angela",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.35,
+   "speed_mult": 1.0,
+   "range_add": 0.7,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Angela",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 1.4,
+   "speed_mult": 1.0,
+   "range_add": 0.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Angela",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 1.45,
+   "speed_mult": 1.0,
+   "range_add": 0.9,
+   "unlock": "Enkephalin Surge",
+   "effect": "Ability: instant cash payout"
+  },
+  {
+   "hero": "Angela",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 1.5,
+   "speed_mult": 1.0,
+   "range_add": 1.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Angela",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 1.55,
+   "speed_mult": 1.0,
+   "range_add": 1.1,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Angela",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 1.6,
+   "speed_mult": 1.0,
+   "range_add": 1.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Angela",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 1.65,
+   "speed_mult": 1.0,
+   "range_add": 1.3,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Angela",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 1.7,
+   "speed_mult": 1.0,
+   "range_add": 1.4,
+   "unlock": "Angela Contract",
+   "effect": "Support aura +15%, free first-tier upgrades nearby"
+  },
+  {
+   "hero": "Angela",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 1.75,
+   "speed_mult": 1.0,
+   "range_add": 1.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Angela",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 1.8,
+   "speed_mult": 1.0,
+   "range_add": 1.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Angela",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 1.85,
+   "speed_mult": 1.0,
+   "range_add": 1.7,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Angela",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 1.9,
+   "speed_mult": 1.0,
+   "range_add": 1.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Angela",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 1.95,
+   "speed_mult": 1.0,
+   "range_add": 1.9,
+   "unlock": "Library Overseer",
+   "effect": "Round income x1.5, aura applies map-wide"
+  },
+  {
+   "hero": "Gebura",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Red Cleave",
+   "effect": "Huge slow melee swing, 4 damage"
+  },
+  {
+   "hero": "Gebura",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.13,
+   "speed_mult": 1.01,
+   "range_add": 0.1,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Gebura",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.26,
+   "speed_mult": 1.03,
+   "range_add": 0.2,
+   "unlock": "Crimson Sweep",
+   "effect": "Swing becomes a 180 degree sweep"
+  },
+  {
+   "hero": "Gebura",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.39,
+   "speed_mult": 1.04,
+   "range_add": 0.3,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Gebura",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.52,
+   "speed_mult": 1.06,
+   "range_add": 0.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Gebura",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.65,
+   "speed_mult": 1.07,
+   "range_add": 0.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Gebura",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.78,
+   "speed_mult": 1.09,
+   "range_add": 0.6,
+   "unlock": "Mist Step",
+   "effect": "Short dash resets attack"
+  },
+  {
+   "hero": "Gebura",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.91,
+   "speed_mult": 1.1,
+   "range_add": 0.7,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Gebura",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 2.04,
+   "speed_mult": 1.12,
+   "range_add": 0.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Gebura",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 2.17,
+   "speed_mult": 1.14,
+   "range_add": 0.9,
+   "unlock": "Red Mist Mantle",
+   "effect": "+30% damage under 50% round time"
+  },
+  {
+   "hero": "Gebura",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 2.3,
+   "speed_mult": 1.15,
+   "range_add": 1.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Gebura",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 2.43,
+   "speed_mult": 1.17,
+   "range_add": 1.1,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Gebura",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 2.56,
+   "speed_mult": 1.18,
+   "range_add": 1.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Gebura",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 2.69,
+   "speed_mult": 1.2,
+   "range_add": 1.3,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Gebura",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 2.82,
+   "speed_mult": 1.21,
+   "range_add": 1.4,
+   "unlock": "Blood Haze",
+   "effect": "Ability: 10s double sweep, Bleed 3"
+  },
+  {
+   "hero": "Gebura",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.95,
+   "speed_mult": 1.23,
+   "range_add": 1.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Gebura",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 3.08,
+   "speed_mult": 1.24,
+   "range_add": 1.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Gebura",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 3.21,
+   "speed_mult": 1.25,
+   "range_add": 1.7,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Gebura",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 3.34,
+   "speed_mult": 1.27,
+   "range_add": 1.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Gebura",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 3.47,
+   "speed_mult": 1.28,
+   "range_add": 1.9,
+   "unlock": "Red Mist Awakened",
+   "effect": "Sweeps send crescent waves, +100% MOAB damage"
+  },
+  {
+   "hero": "Binah",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Thread Cast",
+   "effect": "Ranged strand, applies Rupture 1"
+  },
+  {
+   "hero": "Binah",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.09,
+   "speed_mult": 1.01,
+   "range_add": 0.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Binah",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.18,
+   "speed_mult": 1.03,
+   "range_add": 1.0,
+   "unlock": "Binding Strand",
+   "effect": "Roots Bloons for 1.5s"
+  },
+  {
+   "hero": "Binah",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.27,
+   "speed_mult": 1.04,
+   "range_add": 1.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Binah",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.36,
+   "speed_mult": 1.06,
+   "range_add": 2.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Binah",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.45,
+   "speed_mult": 1.07,
+   "range_add": 2.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Binah",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.54,
+   "speed_mult": 1.09,
+   "range_add": 3.0,
+   "unlock": "Puppet Line",
+   "effect": "Pulls Bloons toward the tower"
+  },
+  {
+   "hero": "Binah",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.63,
+   "speed_mult": 1.1,
+   "range_add": 3.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Binah",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 1.72,
+   "speed_mult": 1.12,
+   "range_add": 4.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Binah",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 1.81,
+   "speed_mult": 1.14,
+   "range_add": 4.5,
+   "unlock": "Loom",
+   "effect": "Ability: web zone, Bloons inside move 50% slower"
+  },
+  {
+   "hero": "Binah",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 1.9,
+   "speed_mult": 1.15,
+   "range_add": 5.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Binah",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 1.99,
+   "speed_mult": 1.17,
+   "range_add": 5.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Binah",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 2.08,
+   "speed_mult": 1.18,
+   "range_add": 6.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Binah",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 2.17,
+   "speed_mult": 1.2,
+   "range_add": 6.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Binah",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 2.26,
+   "speed_mult": 1.21,
+   "range_add": 7.0,
+   "unlock": "Binah Judgement",
+   "effect": "Zone also deals damage over time"
+  },
+  {
+   "hero": "Binah",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.35,
+   "speed_mult": 1.23,
+   "range_add": 7.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Binah",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 2.44,
+   "speed_mult": 1.24,
+   "range_add": 8.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Binah",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 2.53,
+   "speed_mult": 1.25,
+   "range_add": 8.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Binah",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 2.62,
+   "speed_mult": 1.27,
+   "range_add": 9.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Binah",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 2.71,
+   "speed_mult": 1.28,
+   "range_add": 9.5,
+   "unlock": "Binah Final Cut",
+   "effect": "Zone follows the lead Bloon, strips 1 layer per second"
+  },
+  {
+   "hero": "Hokma",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Gentle Counsel",
+   "effect": "Tower in range +10% pierce"
+  },
+  {
+   "hero": "Hokma",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.07,
+   "speed_mult": 1.01,
+   "range_add": 0.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hokma",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.14,
+   "speed_mult": 1.02,
+   "range_add": 0.8,
+   "unlock": "Mentor Aura",
+   "effect": "+10% attack speed in range"
+  },
+  {
+   "hero": "Hokma",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.21,
+   "speed_mult": 1.03,
+   "range_add": 1.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hokma",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.28,
+   "speed_mult": 1.04,
+   "range_add": 1.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hokma",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.35,
+   "speed_mult": 1.05,
+   "range_add": 2.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hokma",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.42,
+   "speed_mult": 1.06,
+   "range_add": 2.4,
+   "unlock": "Calm Mind",
+   "effect": "Slows incoming MOAB-class by 10%"
+  },
+  {
+   "hero": "Hokma",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.49,
+   "speed_mult": 1.07,
+   "range_add": 2.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hokma",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 1.56,
+   "speed_mult": 1.08,
+   "range_add": 3.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hokma",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 1.63,
+   "speed_mult": 1.09,
+   "range_add": 3.6,
+   "unlock": "Hokma Edict",
+   "effect": "Ability: allied towers +30% damage 8s"
+  },
+  {
+   "hero": "Hokma",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 1.7,
+   "speed_mult": 1.1,
+   "range_add": 4.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hokma",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 1.77,
+   "speed_mult": 1.11,
+   "range_add": 4.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hokma",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 1.84,
+   "speed_mult": 1.12,
+   "range_add": 4.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hokma",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 1.91,
+   "speed_mult": 1.13,
+   "range_add": 5.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hokma",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 1.98,
+   "speed_mult": 1.14,
+   "range_add": 5.6,
+   "unlock": "Steady Hand",
+   "effect": "Aura range doubled"
+  },
+  {
+   "hero": "Hokma",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.05,
+   "speed_mult": 1.15,
+   "range_add": 6.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hokma",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 2.12,
+   "speed_mult": 1.16,
+   "range_add": 6.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hokma",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 2.19,
+   "speed_mult": 1.17,
+   "range_add": 6.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hokma",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 2.26,
+   "speed_mult": 1.18,
+   "range_add": 7.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hokma",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 2.33,
+   "speed_mult": 1.19,
+   "range_add": 7.6,
+   "unlock": "Hokma Sanctuary",
+   "effect": "Aura permanent buff +20%, ability cooldown -40%"
+  },
+  {
+   "hero": "Roland",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Revolver Shot",
+   "effect": "Single-target ranged shot"
+  },
+  {
+   "hero": "Roland",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.11,
+   "speed_mult": 1.02,
+   "range_add": 0.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Roland",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.22,
+   "speed_mult": 1.04,
+   "range_add": 1.0,
+   "unlock": "Black Silence Draw",
+   "effect": "Faster draw, +30% attack speed"
+  },
+  {
+   "hero": "Roland",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.33,
+   "speed_mult": 1.06,
+   "range_add": 1.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Roland",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.44,
+   "speed_mult": 1.08,
+   "range_add": 2.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Roland",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.55,
+   "speed_mult": 1.1,
+   "range_add": 2.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Roland",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.66,
+   "speed_mult": 1.12,
+   "range_add": 3.0,
+   "unlock": "Quick Dispatch",
+   "effect": "Second shot at lowest-HP Bloon"
+  },
+  {
+   "hero": "Roland",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.77,
+   "speed_mult": 1.14,
+   "range_add": 3.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Roland",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 1.88,
+   "speed_mult": 1.16,
+   "range_add": 4.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Roland",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 1.99,
+   "speed_mult": 1.18,
+   "range_add": 4.5,
+   "unlock": "Silent Reload",
+   "effect": "Ability: 6 piercing shots instantly"
+  },
+  {
+   "hero": "Roland",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 2.1,
+   "speed_mult": 1.2,
+   "range_add": 5.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Roland",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 2.21,
+   "speed_mult": 1.22,
+   "range_add": 5.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Roland",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 2.32,
+   "speed_mult": 1.24,
+   "range_add": 6.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Roland",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 2.43,
+   "speed_mult": 1.26,
+   "range_add": 6.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Roland",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 2.54,
+   "speed_mult": 1.28,
+   "range_add": 7.0,
+   "unlock": "Duelist Pact",
+   "effect": "Crits at 10% for x3"
+  },
+  {
+   "hero": "Roland",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.65,
+   "speed_mult": 1.3,
+   "range_add": 7.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Roland",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 2.76,
+   "speed_mult": 1.32,
+   "range_add": 8.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Roland",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 2.87,
+   "speed_mult": 1.34,
+   "range_add": 8.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Roland",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 2.98,
+   "speed_mult": 1.36,
+   "range_add": 9.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Roland",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 3.09,
+   "speed_mult": 1.38,
+   "range_add": 9.5,
+   "unlock": "Black Silence Final",
+   "effect": "Shots pierce and chain, +50% damage"
+  },
+  {
+   "hero": "Yesod",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Ammo Cache",
+   "effect": "Supplies nearby gun towers, +5% fire rate"
+  },
+  {
+   "hero": "Yesod",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.08,
+   "speed_mult": 1.02,
+   "range_add": 0.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Yesod",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.16,
+   "speed_mult": 1.04,
+   "range_add": 1.0,
+   "unlock": "Resupply Run",
+   "effect": "Ability: refresh nearby towers' ability cooldowns -10%"
+  },
+  {
+   "hero": "Yesod",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.24,
+   "speed_mult": 1.06,
+   "range_add": 1.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Yesod",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.32,
+   "speed_mult": 1.08,
+   "range_add": 2.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Yesod",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.4,
+   "speed_mult": 1.1,
+   "range_add": 2.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Yesod",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.48,
+   "speed_mult": 1.12,
+   "range_add": 3.0,
+   "unlock": "Spare Magazine",
+   "effect": "Aura +10% fire rate"
+  },
+  {
+   "hero": "Yesod",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.56,
+   "speed_mult": 1.14,
+   "range_add": 3.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Yesod",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 1.64,
+   "speed_mult": 1.16,
+   "range_add": 4.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Yesod",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 1.72,
+   "speed_mult": 1.18,
+   "range_add": 4.5,
+   "unlock": "Overload Round",
+   "effect": "Boosts one tower's pierce +50% for 10s"
+  },
+  {
+   "hero": "Yesod",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 1.8,
+   "speed_mult": 1.2,
+   "range_add": 5.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Yesod",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 1.88,
+   "speed_mult": 1.22,
+   "range_add": 5.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Yesod",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 1.96,
+   "speed_mult": 1.24,
+   "range_add": 6.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Yesod",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 2.04,
+   "speed_mult": 1.26,
+   "range_add": 6.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Yesod",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 2.12,
+   "speed_mult": 1.28,
+   "range_add": 7.0,
+   "unlock": "Supply Line",
+   "effect": "Aura applies to all towers in range"
+  },
+  {
+   "hero": "Yesod",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.2,
+   "speed_mult": 1.3,
+   "range_add": 7.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Yesod",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 2.28,
+   "speed_mult": 1.32,
+   "range_add": 8.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Yesod",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 2.36,
+   "speed_mult": 1.34,
+   "range_add": 8.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Yesod",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 2.44,
+   "speed_mult": 1.36,
+   "range_add": 9.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Yesod",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 2.52,
+   "speed_mult": 1.38,
+   "range_add": 9.5,
+   "unlock": "Yesod Total Supply",
+   "effect": "Ability applies map-wide, cooldown -30%"
+  },
+  {
+   "hero": "Carmen",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Quick Slash",
+   "effect": "Very fast melee strike"
+  },
+  {
+   "hero": "Carmen",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.12,
+   "speed_mult": 1.02,
+   "range_add": 0.1,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Carmen",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.24,
+   "speed_mult": 1.05,
+   "range_add": 0.2,
+   "unlock": "Blade Rhythm",
+   "effect": "Attack speed +3% per consecutive hit"
+  },
+  {
+   "hero": "Carmen",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.36,
+   "speed_mult": 1.07,
+   "range_add": 0.3,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Carmen",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.48,
+   "speed_mult": 1.1,
+   "range_add": 0.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Carmen",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.6,
+   "speed_mult": 1.12,
+   "range_add": 0.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Carmen",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.72,
+   "speed_mult": 1.15,
+   "range_add": 0.6,
+   "unlock": "Edge Dance",
+   "effect": "Third hit becomes a spin"
+  },
+  {
+   "hero": "Carmen",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.84,
+   "speed_mult": 1.18,
+   "range_add": 0.7,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Carmen",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 1.96,
+   "speed_mult": 1.2,
+   "range_add": 0.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Carmen",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 2.08,
+   "speed_mult": 1.23,
+   "range_add": 0.9,
+   "unlock": "Carmen Rush",
+   "effect": "Ability: 8s double speed"
+  },
+  {
+   "hero": "Carmen",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 2.2,
+   "speed_mult": 1.25,
+   "range_add": 1.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Carmen",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 2.32,
+   "speed_mult": 1.27,
+   "range_add": 1.1,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Carmen",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 2.44,
+   "speed_mult": 1.3,
+   "range_add": 1.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Carmen",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 2.56,
+   "speed_mult": 1.32,
+   "range_add": 1.3,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Carmen",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 2.68,
+   "speed_mult": 1.35,
+   "range_add": 1.4,
+   "unlock": "Precision Cut",
+   "effect": "Crit 15%, x2"
+  },
+  {
+   "hero": "Carmen",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.8,
+   "speed_mult": 1.38,
+   "range_add": 1.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Carmen",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 2.92,
+   "speed_mult": 1.4,
+   "range_add": 1.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Carmen",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 3.04,
+   "speed_mult": 1.43,
+   "range_add": 1.7,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Carmen",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 3.16,
+   "speed_mult": 1.45,
+   "range_add": 1.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Carmen",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 3.28,
+   "speed_mult": 1.48,
+   "range_add": 1.9,
+   "unlock": "Carmen Crescendo",
+   "effect": "Rhythm uncapped, spin hits all Bloons in range"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Psychic Spark",
+   "effect": "Mind bolt, 1 damage ignores armor"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.1,
+   "speed_mult": 1.01,
+   "range_add": 0.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.2,
+   "speed_mult": 1.03,
+   "range_add": 0.8,
+   "unlock": "Resonant Thought",
+   "effect": "Bolt chains between 3 Bloons"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.3,
+   "speed_mult": 1.04,
+   "range_add": 1.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.4,
+   "speed_mult": 1.06,
+   "range_add": 1.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.5,
+   "speed_mult": 1.07,
+   "range_add": 2.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.6,
+   "speed_mult": 1.09,
+   "range_add": 2.4,
+   "unlock": "Mind Bind",
+   "effect": "Briefly freezes Bloons"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.7,
+   "speed_mult": 1.1,
+   "range_add": 2.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 1.8,
+   "speed_mult": 1.12,
+   "range_add": 3.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 1.9,
+   "speed_mult": 1.14,
+   "range_add": 3.6,
+   "unlock": "Tiphereth Insight",
+   "effect": "Ability: all Bloons on screen take 15 damage"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 2.0,
+   "speed_mult": 1.15,
+   "range_add": 4.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 2.1,
+   "speed_mult": 1.17,
+   "range_add": 4.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 2.2,
+   "speed_mult": 1.18,
+   "range_add": 4.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 2.3,
+   "speed_mult": 1.2,
+   "range_add": 5.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 2.4,
+   "speed_mult": 1.21,
+   "range_add": 5.6,
+   "unlock": "Overflowing Thought",
+   "effect": "Chains 6 times"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.5,
+   "speed_mult": 1.23,
+   "range_add": 6.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 2.6,
+   "speed_mult": 1.24,
+   "range_add": 6.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 2.7,
+   "speed_mult": 1.25,
+   "range_add": 6.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 2.8,
+   "speed_mult": 1.27,
+   "range_add": 7.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Tiphereth",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 2.9,
+   "speed_mult": 1.28,
+   "range_add": 7.6,
+   "unlock": "Tiphereth Mindstorm",
+   "effect": "Thought bursts constantly, ability recharges 2x faster"
+  },
+  {
+   "hero": "Chesed",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Chesed Shop",
+   "effect": "Places up to 3 consumable traps"
+  },
+  {
+   "hero": "Chesed",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.07,
+   "speed_mult": 1.01,
+   "range_add": 0.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Chesed",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.14,
+   "speed_mult": 1.02,
+   "range_add": 1.0,
+   "unlock": "Common Wares",
+   "effect": "Traps stronger, +20% damage"
+  },
+  {
+   "hero": "Chesed",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.21,
+   "speed_mult": 1.03,
+   "range_add": 1.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Chesed",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.28,
+   "speed_mult": 1.04,
+   "range_add": 2.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Chesed",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.35,
+   "speed_mult": 1.05,
+   "range_add": 2.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Chesed",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.42,
+   "speed_mult": 1.06,
+   "range_add": 3.0,
+   "unlock": "Wild Stock",
+   "effect": "Ability: buy random upgrade for cash"
+  },
+  {
+   "hero": "Chesed",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.49,
+   "speed_mult": 1.07,
+   "range_add": 3.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Chesed",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 1.56,
+   "speed_mult": 1.08,
+   "range_add": 4.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Chesed",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 1.63,
+   "speed_mult": 1.09,
+   "range_add": 4.5,
+   "unlock": "Elixir Counter",
+   "effect": "Ability: slows Bloons on screen"
+  },
+  {
+   "hero": "Chesed",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 1.7,
+   "speed_mult": 1.1,
+   "range_add": 5.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Chesed",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 1.77,
+   "speed_mult": 1.11,
+   "range_add": 5.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Chesed",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 1.84,
+   "speed_mult": 1.12,
+   "range_add": 6.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Chesed",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 1.91,
+   "speed_mult": 1.13,
+   "range_add": 6.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Chesed",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 1.98,
+   "speed_mult": 1.14,
+   "range_add": 7.0,
+   "unlock": "Chesed Bargain",
+   "effect": "Traps cost 20% less, +30% damage"
+  },
+  {
+   "hero": "Chesed",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.05,
+   "speed_mult": 1.15,
+   "range_add": 7.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Chesed",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 2.12,
+   "speed_mult": 1.16,
+   "range_add": 8.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Chesed",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 2.19,
+   "speed_mult": 1.17,
+   "range_add": 8.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Chesed",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 2.26,
+   "speed_mult": 1.18,
+   "range_add": 9.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Chesed",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 2.33,
+   "speed_mult": 1.19,
+   "range_add": 9.5,
+   "unlock": "Chesed Grand Sale",
+   "effect": "Free shop item each round, ability cooldown halved"
+  },
+  {
+   "hero": "Netzach",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Netzach Fang",
+   "effect": "Bite + Bleed 1"
+  },
+  {
+   "hero": "Netzach",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.09,
+   "speed_mult": 1.02,
+   "range_add": 0.3,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Netzach",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.18,
+   "speed_mult": 1.04,
+   "range_add": 0.6,
+   "unlock": "Call Lupine",
+   "effect": "Summons 1 helper"
+  },
+  {
+   "hero": "Netzach",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.27,
+   "speed_mult": 1.06,
+   "range_add": 0.9,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Netzach",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.36,
+   "speed_mult": 1.08,
+   "range_add": 1.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Netzach",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.45,
+   "speed_mult": 1.1,
+   "range_add": 1.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Netzach",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.54,
+   "speed_mult": 1.12,
+   "range_add": 1.8,
+   "unlock": "Pack Hunt",
+   "effect": "Helpers deal +50% damage"
+  },
+  {
+   "hero": "Netzach",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.63,
+   "speed_mult": 1.14,
+   "range_add": 2.1,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Netzach",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 1.72,
+   "speed_mult": 1.16,
+   "range_add": 2.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Netzach",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 1.81,
+   "speed_mult": 1.18,
+   "range_add": 2.7,
+   "unlock": "Howl",
+   "effect": "Ability: summons 3 for 15s"
+  },
+  {
+   "hero": "Netzach",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 1.9,
+   "speed_mult": 1.2,
+   "range_add": 3.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Netzach",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 1.99,
+   "speed_mult": 1.22,
+   "range_add": 3.3,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Netzach",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 2.08,
+   "speed_mult": 1.24,
+   "range_add": 3.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Netzach",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 2.17,
+   "speed_mult": 1.26,
+   "range_add": 3.9,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Netzach",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 2.26,
+   "speed_mult": 1.28,
+   "range_add": 4.2,
+   "unlock": "Netzach Hunger",
+   "effect": "Bleed 3, helpers heal him"
+  },
+  {
+   "hero": "Netzach",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.35,
+   "speed_mult": 1.3,
+   "range_add": 4.5,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Netzach",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 2.44,
+   "speed_mult": 1.32,
+   "range_add": 4.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Netzach",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 2.53,
+   "speed_mult": 1.34,
+   "range_add": 5.1,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Netzach",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 2.62,
+   "speed_mult": 1.36,
+   "range_add": 5.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Netzach",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 2.71,
+   "speed_mult": 1.38,
+   "range_add": 5.7,
+   "unlock": "Netzach Apex",
+   "effect": "Permanent pack of 4, ability free"
+  },
+  {
+   "hero": "Hod",
+   "level": 1,
+   "xp_cumulative": 0,
+   "dmg_mult": 1.0,
+   "speed_mult": 1.0,
+   "range_add": 0.0,
+   "unlock": "Hod Spark",
+   "effect": "Small explosion, 1 damage"
+  },
+  {
+   "hero": "Hod",
+   "level": 2,
+   "xp_cumulative": 180,
+   "dmg_mult": 1.11,
+   "speed_mult": 1.01,
+   "range_add": 0.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hod",
+   "level": 3,
+   "xp_cumulative": 546,
+   "dmg_mult": 1.22,
+   "speed_mult": 1.03,
+   "range_add": 0.8,
+   "unlock": "Hod Fire",
+   "effect": "Explosions leave Burn 1"
+  },
+  {
+   "hero": "Hod",
+   "level": 4,
+   "xp_cumulative": 1044,
+   "dmg_mult": 1.33,
+   "speed_mult": 1.04,
+   "range_add": 1.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hod",
+   "level": 5,
+   "xp_cumulative": 1654,
+   "dmg_mult": 1.44,
+   "speed_mult": 1.06,
+   "range_add": 1.6,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hod",
+   "level": 6,
+   "xp_cumulative": 2364,
+   "dmg_mult": 1.55,
+   "speed_mult": 1.07,
+   "range_add": 2.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hod",
+   "level": 7,
+   "xp_cumulative": 3165,
+   "dmg_mult": 1.66,
+   "speed_mult": 1.09,
+   "range_add": 2.4,
+   "unlock": "Hod Bomb",
+   "effect": "Larger blast, +40% area"
+  },
+  {
+   "hero": "Hod",
+   "level": 8,
+   "xp_cumulative": 4050,
+   "dmg_mult": 1.77,
+   "speed_mult": 1.1,
+   "range_add": 2.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hod",
+   "level": 9,
+   "xp_cumulative": 5014,
+   "dmg_mult": 1.88,
+   "speed_mult": 1.12,
+   "range_add": 3.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hod",
+   "level": 10,
+   "xp_cumulative": 6054,
+   "dmg_mult": 1.99,
+   "speed_mult": 1.14,
+   "range_add": 3.6,
+   "unlock": "Hod Burst",
+   "effect": "Ability: 5 explosions around the tower"
+  },
+  {
+   "hero": "Hod",
+   "level": 11,
+   "xp_cumulative": 7166,
+   "dmg_mult": 2.1,
+   "speed_mult": 1.15,
+   "range_add": 4.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hod",
+   "level": 12,
+   "xp_cumulative": 8346,
+   "dmg_mult": 2.21,
+   "speed_mult": 1.17,
+   "range_add": 4.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hod",
+   "level": 13,
+   "xp_cumulative": 9593,
+   "dmg_mult": 2.32,
+   "speed_mult": 1.18,
+   "range_add": 4.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hod",
+   "level": 14,
+   "xp_cumulative": 10904,
+   "dmg_mult": 2.43,
+   "speed_mult": 1.2,
+   "range_add": 5.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hod",
+   "level": 15,
+   "xp_cumulative": 12277,
+   "dmg_mult": 2.54,
+   "speed_mult": 1.21,
+   "range_add": 5.6,
+   "unlock": "Hod Fireworks",
+   "effect": "Explosions chain"
+  },
+  {
+   "hero": "Hod",
+   "level": 16,
+   "xp_cumulative": 13709,
+   "dmg_mult": 2.65,
+   "speed_mult": 1.23,
+   "range_add": 6.0,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hod",
+   "level": 17,
+   "xp_cumulative": 15201,
+   "dmg_mult": 2.76,
+   "speed_mult": 1.24,
+   "range_add": 6.4,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hod",
+   "level": 18,
+   "xp_cumulative": 16749,
+   "dmg_mult": 2.87,
+   "speed_mult": 1.25,
+   "range_add": 6.8,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hod",
+   "level": 19,
+   "xp_cumulative": 18353,
+   "dmg_mult": 2.98,
+   "speed_mult": 1.27,
+   "range_add": 7.2,
+   "unlock": "stat_only",
+   "effect": "Stat scaling only"
+  },
+  {
+   "hero": "Hod",
+   "level": 20,
+   "xp_cumulative": 20011,
+   "dmg_mult": 3.09,
+   "speed_mult": 1.28,
+   "range_add": 7.6,
+   "unlock": "Hod Grand Finale",
+   "effect": "Ability: screen-wide blasts, strips 2 layers"
+  }
+ ]
+}
